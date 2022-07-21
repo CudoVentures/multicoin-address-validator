@@ -430,6 +430,11 @@ var CURRENCIES = [{
         bech32Hrp: { prod: ['cro'], testnet: ['tcro']},
         validator: BIP173Validator,
     }, {
+        name: 'Cudos',
+        symbol: 'cudos',
+        bech32Hrp: { prod: ['cudos'], testnet: ['cudos'] },
+        validator: BIP173Validator,
+    }, {
         name: 'Multi-collateral DAI',
         symbol: 'dai',
         validator: ETHValidator,
